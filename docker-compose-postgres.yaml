@@ -14,5 +14,6 @@ services:
       PGTZ: Asia/Jakarta
     volumes: 
       - ./data/postgres:/var/lib/postgresql/data
+      - ./data/user:/userdata
     ports: 
       - "5432:5432"
